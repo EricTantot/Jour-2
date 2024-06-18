@@ -28,7 +28,7 @@ else:
                     win = win + 1
                     break
                 else:
-                    print(f"Vous avez trouvé une lettre: {test}\nIl vous en reste {n-found} à trouver!")
+                    print(f"Vous avez trouvé une lettre: {test}, il vous en reste {n-found} à trouver!")
             else: 
                 total = total + 1
                 trouvé.append(test)
@@ -38,4 +38,3 @@ else:
         print(f"Perdu! Le mot était {motMystere}!")
     else:
         print(f"Vous avez trouvé le mot {motMystere}. Bien joué!")
-        
